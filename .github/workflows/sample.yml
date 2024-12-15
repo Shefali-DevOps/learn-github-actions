@@ -1,0 +1,24 @@
+name: learn-github-actions
+on: [push, workflow_dispatch]
+jobs:
+  DEV:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo Hello
+
+  QA:
+    runs-on: ubuntu-latest
+    steps:
+      -run: echo Hello
+
+  UAT:
+    runs-on: ubuntu-latest
+    steps:
+      -run: echo Hello
+
+  PROD:
+    runs-on: ubuntu-latest
+    steps:
+      -run: echo Hello
+
+

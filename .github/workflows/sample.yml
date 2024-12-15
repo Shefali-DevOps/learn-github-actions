@@ -9,16 +9,16 @@ jobs:
   QA:
     runs-on: ubuntu-latest
     steps:
-      -run: echo Hello
+      - run: echo Hello
 
   UAT:
     runs-on: ubuntu-latest
     steps:
-      -run: echo Hello
+      - run: echo Hello
 
   PROD:
     runs-on: ubuntu-latest
     steps:
-      -run: echo Hello
+      - run: echo Hello
 
 

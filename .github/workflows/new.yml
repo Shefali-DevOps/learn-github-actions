@@ -1,4 +1,5 @@
 name: Self hosted runners
+on: [push, workflow_dispatch]
 jobs:
   DEV:
     runs-on: self-hosted
